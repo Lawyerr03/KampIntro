@@ -5,18 +5,18 @@
         static void Main(string[] args)
         {
             Dictionary<int, string> dictionary = new Dictionary<int, string>();
-            dictionary.Add(5265484, "Resul Aydın");
+            dictionary.Add(5265484, "Mustafa ÇELİK");
             Console.WriteLine(dictionary.Count);
             Console.WriteLine(dictionary[5265484]);
 
-            string? result;
+            string result;
             Console.WriteLine(dictionary.TryGetValue(5265484, out result));
 
 
             MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
-            myDictionary.Add(11165484, "Tenacious Aydın");
-            myDictionary.Add(11452484, "Humanity Aydın");
-            myDictionary.Add(11452486, "İnsan Aydın");
+            myDictionary.Add(11165484, "Ahmet ÇELİK");
+            myDictionary.Add(11452484, "Sultan ÇELİK");
+            myDictionary.Add(11452486, "İbrahim Delibaş");
             Console.WriteLine(myDictionary.Count());
             Console.WriteLine(" ---------- GetValueByKey ------------");
             Console.WriteLine(myDictionary.GetValueByKey(11452486));

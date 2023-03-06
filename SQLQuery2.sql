@@ -58,3 +58,36 @@ on c.CustomerID = o.CustomerID
 where o.CustomerID is null
 
 -- is null o data yok demek
+
+
+--En Önemli SQL Komutlarından Bazıları
+--SELECT- bir veritabanından veri ayıklar
+--UPDATE- bir veritabanındaki verileri günceller
+--DELETE- veri tabanından verileri siler
+--INSERT INTO- bir veritabanına yeni veriler ekler
+--CREATE DATABASE- yeni bir veritabanı oluşturur
+--ALTER DATABASE- bir veritabanını değiştirir
+--CREATE TABLE- yeni bir tablo oluşturur
+--ALTER TABLE- bir tabloyu değiştirir
+--DROP TABLE- bir tabloyu siler
+--CREATE INDEX- bir dizin oluşturur (arama anahtarı)
+--DROP INDEX- bir dizini siler
+
+--""""WHERE Maddesindeki Operatörler"""""
+--=	Equal	
+-->	Greater than	
+--<	Less than	
+-->=	Greater than or equal	
+--<=	Less than or equal	
+--<>	Not equal. Note: In some versions of SQL this operator may be written as !=	
+--BETWEEN	Between a certain range	
+--LIKE	Search for a pattern	
+--IN	To specify multiple possible values for a column
+
+
+select p.ProductName as 'Ürün Adı', SUM(od.UnitPrice*od.Quantity) as 'Kazanılan Toplam Miktar'
+from Products as p
+inner join [Order Details] as od on p.ProductID = od.ProductID
+inner join Orders as o on O.OrderID = od.OrderID
+group by p.ProductName
+order by SUM(od.UnitPrice*od.Quantity) desc

@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{A262BE8A-048D-4A0F-8C7B-FA928EEAAA13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunBesOdevBes", "GunBesOdevBes\GunBesOdevBes.csproj", "{3A649081-F3AC-49C2-827E-CE6D7B0865C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GunBesOdevBes", "GunBesOdevBes\GunBesOdevBes.csproj", "{3A649081-F3AC-49C2-827E-CE6D7B0865C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{64CDC2FE-31B1-4F0E-987D-77787C03D3CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{3A649081-F3AC-49C2-827E-CE6D7B0865C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A649081-F3AC-49C2-827E-CE6D7B0865C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A649081-F3AC-49C2-827E-CE6D7B0865C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CDC2FE-31B1-4F0E-987D-77787C03D3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CDC2FE-31B1-4F0E-987D-77787C03D3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CDC2FE-31B1-4F0E-987D-77787C03D3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CDC2FE-31B1-4F0E-987D-77787C03D3CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
